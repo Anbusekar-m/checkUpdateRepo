@@ -1,21 +1,20 @@
 {
   "name": "checkUpdateRepo",
   "version": "1.0.1",
-  "homepage": "https://www.scanflow.ai",
-  "documentation_url": "https://docs.scandit.com/data-capture-sdk/ios/",
+  "summary": "checkUpdateRepo",
+  "description": "Barcode Scanner SDK",
+  "homepage": "http://www.scandit.com",
   "license": {
-    "text": "Copyright 2020- Scanflow",
-    "type": "Commercial"
+    "type": "Commercial",
+    "file": "ScanditSDK/LICENSE.txt"
   },
-  "authors": {
-    "Anbuflow AG": "support@scanflow.ai"
-  },
-  "summary": "ScanditTextCapture provides the text capture capabilities of the Scandit Data Capture SDK.",
-  "platforms": {
-    "ios": "11.0"
-  },
+  "authors": "Scandit",
   "source": {
-    "http": "https://drive.google.com/file/d/1BUqtZIS7pNa49RyiwLGoZjAcb71_9BXY/view?usp=sharing"
+    "git": "https://github.com/xslim/ScanditSDK.git",
+    "tag": "4.1.2"
   },
- 
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": false
 }
